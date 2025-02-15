@@ -19,10 +19,13 @@
             <input id="lname" type="text" placeholder="Enter your last name">
 
             <label for="email">Email:</label>
-            <input id="email" type="email" placeholder="Enter your email">
+            <input id="email" type="email" placeholder="Enter your email address">
+
+            <label for="phone">Phone number:</label>
+            <input id="phone" type="number" placeholder="Enter your phone number">
 
             <label for="make">Make:</label>
-            <select id="make">
+            <select id="make" placeholder="Make">
                 <option value="ACURA">ACURA</option>
                 <option value="ASTON MARTIN">ASTON MARTIN</option>
                 <option value="AUDI">AUDI</option>
@@ -70,7 +73,7 @@
             </select>
 
             <label for="model">Model:</label>
-            <select id="model">
+            <select id="model" placeholder="Model">
                 <option value="MDX">MDX</option>
                 <option value="NSX">NSX</option>
                 <option value="RL">RL</option>
@@ -82,19 +85,19 @@
             </select>
 
             <label for="year">Year:</label>
-            <input id="year" type="number" min="1980" max="2025">
+            <input id="year" type="number" min="1980" max="2025" placeholder="Year">
 
             <label for="date">Date:</label>
             <input id="date" type="date">
 
-            <label for="part">Spare Part Number:</label>
-            <input id="part" type="text">
+            <label for="part">Spare Part:</label>
+            <input id="part" type="text" placeholder="Enter the spare part you need">
 
             <label for="quantity">Quantity:</label>
-            <input id="quantity" type="number" min="1" max="20">
+            <input id="quantity" type="number" min="1" max="20" placeholder="Enter quantity of the spare part you need">
 
             <label for="comment">Comment:</label>
-            <textarea id="comment" cols="30" rows="3"></textarea>
+            <textarea id="comment" cols="30" rows="3" placeholder="Enter your comment"></textarea>
 
             <button>Submit</button>
         </form>
