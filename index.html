@@ -4,10 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Lab 4</title>
 </head>
 
 <body>
+    <h1>Great Auto Parts - Order Form</h1>
+    <div id="content">
+        <form>
+            <label for="fname">First Name:</label>
+            <input id="fname" type="text" placeholder="Enter your first name">
+
+            <label for="lname">Last Name:</label>
+            <input id="lname" type="text" placeholder="Enter your last name">
+
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Enter your email">
+
+            <label for="make">Make:</label>
+            <select id="make">
+                <option value="ACURA">ACURA</option>
+                <option value="ASTON MARTIN">ASTON MARTIN</option>
+                <option value="AUDI">AUDI</option>
+                <option value="BENTLEY">BENTLEY</option>
+                <option value="BMW">BMW</option>
+                <option value="BUICK">BUICK</option>
+                <option value="CADILLAC">CADILLAC</option>
+                <option value="CHEVROLET">CHEVROLET</option>
+                <option value="CHRYSLER">CHRYSLER</option>
+                <option value="DODGE">DODGE</option>
+                <option value="FERRARI">FERRARI</option>
+                <option value="FORD">FORD</option>
+                <option value="GMC">GMC</option>
+                <option value="HONDA">HONDA</option>
+                <option value="HUMMER">HUMMER</option>
+                <option value="HYUNDAI">HYUNDAI</option>
+                <option value="INFINITI">INFINITI</option>
+                <option value="ISUZU">ISUZU</option>
+                <option value="JAGUAR">JAGUAR</option>
+                <option value="JEEP">JEEP</option>
+                <option value="KIA">KIA</option>
+                <option value="LAMBORGHINI">LAMBORGHINI</option>
+                <option value="LAND ROVER">LAND ROVER</option>
+                <option value="LEXUS">LEXUS</option>
+                <option value="LINCOLN">LINCOLN</option>
+                <option value="LOTUS">LOTUS</option>
+                <option value="MASERATI">MASERATI</option>
+                <option value="MAYBACH">MAYBACH</option>
+                <option value="MAZDA">MAZDA</option>
+                <option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
+                <option value="MERCURY">MERCURY</option>
+                <option value="MINI">MINI</option>
+                <option value="MITSUBISHI">MITSUBISHI</option>
+                <option value="NISSAN">NISSAN</option>
+                <option value="PONTIAC">PONTIAC</option>
+                <option value="PORSCHE">PORSCHE</option>
+                <option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
+                <option value="SAAB">SAAB</option>
+                <option value="SATURN">SATURN</option>
+                <option value="SUBARU">SUBARU</option>
+                <option value="SUZUKI">SUZUKI</option>
+                <option value="TOYOTA">TOYOTA</option>
+                <option value="VOLKSWAGEN">VOLKSWAGEN</option>
+                <option value="VOLVO">VOLVO</option>
+            </select>
+
+            <label for="model">Model:</label>
+            <select id="model">
+                <option value="MDX">MDX</option>
+                <option value="NSX">NSX</option>
+                <option value="RL">RL</option>
+                <option value="RSX">RSX</option>
+                <option value="TL">TL</option>
+                <option value="TSX">TSX</option>
+                <option value="VIGOR">VIGOR</option>
+                <option value="ZDX">ZDX</option>
+            </select>
+
+            <label for="year">Year:</label>
+            <input id="year" type="number" min="1980" max="2025">
+
+            <label for="date">Date:</label>
+            <input id="date" type="date">
+
+            <label for="part">Spare Part Number:</label>
+            <input id="part" type="text">
+
+            <label for="quantity">Quantity:</label>
+            <input id="quantity" type="number" min="1" max="20">
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" cols="30" rows="3"></textarea>
+
+            <button>Submit</button>
+        </form>
+    </div>
+
 
 </body>
 
